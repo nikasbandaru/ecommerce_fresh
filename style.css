@@ -450,26 +450,67 @@ background-image: url("img/banner/b18.jpg");
 }
 footer{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 footer .col
 {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 footer .icon 
 {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     padding: 5px;
     width: 10%;
     justify-content: space-between;
 }
-footer .icon .fa:hover
+
+
+footer .logo
 {
-background-color: #088178;
-/* border-radius:3px ;
- */
- width: 10px;
+    margin-bottom: 30px;
+}
+footer h4
+{
+    font-size: 14px;
+    padding-bottom: 20px ;
+}
+footer p
+{
+
+}
+footer a
+{
+    text-decoration: none;
+    color: rgb(83, 78, 78);
+}
+footer .install .row img
+{
+    border: 1px solid rgb(60, 156, 117);
+    border-radius: 6px;
+}
+footer .install  img
+{
+    margin: 1px 0 15px 0;
+}
+footer .install p
+{
+   margin-top: 0px;
+}
+
+footer .follow i
+{
+    padding: 4px;
+    color: #054f49;
+}
+
+footer .follow i:hover
+{
+    padding: 4px;
+    color: #0d958a;
 }
 /*shop page*/
 
